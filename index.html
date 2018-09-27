@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+   	<meta charset="UTF-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Klasy pomocnicze Bootstrap</title>
+	<!--podpięte fonty-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!--podpięty bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 	crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+  	<!--podpięty CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+
+		<!--navigation-->
+
+		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top navigate">
+  			<div class="container-fluid">
+	    		<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+	    			<a class="navbar-brand" href="#">
+					<img class="logo" src="http://i63.tinypic.com/a1j0wj.jpg">
+	    			</a>
+	    		</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           			<ul class="nav navbar-nav">
+                		<li><a href="#">O nas</a></li>
+				     	<li><a href="index.html#gallery">Galeria</a></li>
+				     	<li><a href="index.html#media">Media</a></li>
+				      	<li><a href="index.html#table">Tabela</a></li>
+				      	<li><a href="index.html#form">Formularz kontaktowy</a></li>
+    				</ul>
+    				<form class="navbar-form navbar-right" role="search">
+    					<div class="form-group">
+    						<input type="text" class="form-control" placeholder="wpisz szukany tekst">
+    					</div>
+    					<button type="submit" class="btn btn-default">Szukaj</button>
+  					</form>
+  				</div>
+  			</div>
+		</nav>
+
+		<!--header-->
+
+		<div class="header text-center container-fluid">
+			<h1 class="animated bounce">Moja strona internetowa<br><small>pierwszy projekt strony</small></h1>
+			<button class="btn btn-primary btn-lg">wchodzisz na własne ryzyko</button>
+		</div>
+
+		<!--jumbotron-->
+
+		<div class="container">
+			<div class="jumbotron text-center">
+  				<h1>Najlepsza strona na świecie </h1>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet. Nulla mollis varius diam sit amet sagittis. Aenean sit amet elit a eros posuere semper. Vivamus faucibus est risus, et condimentum nunc interdum vitae. Donec dignissim posuere sollicitudin. Donec in malesuada nibh.</p>
+  				<p><a class="btn btn-primary btn-lg" href="#" role="button">Więcej informacji</a></p>
+  			</div>
+  		</div>
+
+		<div class="jumbotron text-center">
+			<div class="container">
+  				<h1>Najlepsza strona na świecie </h1>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet. Nulla mollis varius diam sit amet sagittis. Aenean sit amet elit a eros posuere semper. Vivamus faucibus est risus, et condimentum nunc interdum vitae. Donec dignissim posuere sollicitudin. Donec in malesuada nibh.</p>
+  				<p><a class="btn btn-primary btn-lg" href="#" role="button">Więcej informacji</a></p>
+  			</div>
+  		</div>
+
+		<!--pagination-->
+
+		<div class="container-fluid text-center">
+			<nav aria-label="wiadomości">
+			  <ul class="pagination">
+			  	<li>
+			    	<a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+			    </li>
+			    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">2 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">3 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">4 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">5 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">6 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">7 <span class="sr-only">(current)</span></a></li>
+			    <li class=""><a href="#">8 <span class="sr-only">(current)</span></a></li>
+			    <li>
+			    	<a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+			    </li>
+			  </ul>
+			</nav>
+		</div>
+
+		<!--gallery-->
+
+		<div class="container-fluid" id=gallery>
+			<h1 class="bg-primary text-center">Galeria</h1>
+		</div>
+		<div class="gallery center-block container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/373965/pexels-photo-373965.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/109479/pexels-photo-109479.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/158571/architecture-about-building-modern-158571.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/221490/pexels-photo-221490.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/187913/pexels-photo-187913.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="https://images.pexels.com/photos/175771/pexels-photo-175771.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="img-responsive img-thumbnail">
+				</div>
+			</div>
+		</div>
+
+		<!--media group-->
+
+		<div class="container-fluid text-center" id="media">
+			<h1 class="bg-primary">Media</h1>
+		</div>
+		<div class="container-fluid">
+			<div class="media">
+				<div class="media-left">
+					<a href="#">
+						<img class="media-object foto1" src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+					</a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">Nagrodzony budynek</h4>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet. Nulla mollis varius diam sit amet sagittis. Aenean sit amet elit a eros posuere semper. Vivamus faucibus est risus, et condimentum nunc interdum vitae. Donec dignissim posuere sollicitudin. Donec in malesuada nibh. orem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet.</p>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-body">
+					<h4 class="media-heading">Nagrodzony budynek</h4>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet. Nulla mollis varius diam sit amet sagittis. Aenean sit amet elit a eros posuere semper. Vivamus faucibus est risus, et condimentum nunc interdum vitae. Donec dignissim posuere sollicitudin. Donec in malesuada nibh. orem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet.</p>
+				</div>
+				<div class="media-right">
+					<a href="#">
+						<img class="media-object foto1" src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+					</a>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<a href="#">
+						<img class="media-object foto1" src="https://images.pexels.com/photos/425047/pexels-photo-425047.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+					</a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">Nagrodzony budynek</h4>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet. Nulla mollis varius diam sit amet sagittis. Aenean sit amet elit a eros posuere semper. Vivamus faucibus est risus, et condimentum nunc interdum vitae. Donec dignissim posuere sollicitudin. Donec in malesuada nibh. orem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae justo non elit mollis luctus. Donec vel fermentum diam. Nunc eleifend a tortor vitae laoreet.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--table-->
+
+		<div class="container-fluid text-center" id="table">
+			<table class="table table-striped table-bordered table-hover">
+				<thead>
+					<h1 class="bg-primary">Przykładowa tabela</h1>
+					<tr>
+						<th>osoba 1</th>
+						<th>osoba 2</th>
+						<th>osoba 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Adam</td>
+						<td>Maria</td>
+						<td>Grzegorz</td>
+					</tr>
+					<tr>
+						<td>1970</td>
+						<td>1985</td>
+						<td>1990</td>
+					</tr>
+					<tr>
+						<td>2000$</td>
+						<td>1890$</td>
+						<td>2350$</td>
+					</tr>
+					<tr>
+						<td>Ford</td>
+						<td>Opel</td>
+						<td>Audi</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!--form-->
+
+		<div class="container-fluid" id="form">
+			<h1 class="bg-primary text-center">Formularz kontaktowy</h1>
+		</div>
+		<div class="container">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="inputname" class="col-xs-3 col-m-2">Imię</label>
+					<input type="text" name="imię" id="inputname" class="col-xs-5">	
+				</div>
+				<div class="form-group">
+					<label for="inputsurname" class="col-xs-3 col-m-2">Nazwisko</label>
+					<input type="text" name="nazwisko" id="inputsurmane" class="col-xs-5">
+				</div>
+				<div class="form-group">
+					<label for="inputemail" class="col-xs-3 col-m-2">Email</label>
+					<input type="email" name="email" id="inputemail" class="col-xs-5">
+				</div>
+			</form>
+			<form class="form-block">
+				<div class="form-group">
+					<label for="inputtext">Wiadomość</label>
+					<textarea name="tekst wiadomości" id="inputtext" class="form-control" rows="3">wpisz wiadomość...</textarea>
+				</div>
+			</form>
+			<button type="submit" class="btn btn-primary btn-lg">Wyślij wiadomość</button>
+		</div>
+
+		<!--footer-->
+
+		<footer>
+			<div class="container-fluid text-center footer">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>© 2017, WebDeveloper, All rights reserved</p>
+					</div>
+					<div class="col-xs-6">
+						<p> Web Design & Development by Dawid Brzozowski</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>

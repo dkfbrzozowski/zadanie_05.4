@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;	
+}
+.logo {
+	width: 30vh;
+	margin: auto;
+	padding: 0;
+}
+body {
+	padding-top: 100px;
+}
+.btn-lg {
+  margin: 2% 0;
+}
+.jumbotron {
+	margin-top: 2%;
+	background-image: url("https://images.pexels.com/photos/276374/pexels-photo-276374.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-size: cover;
+	height: 100%;
+}
+.jumbotron p {
+	margin: 0 2%;
+	color: #000;
+	font-size: 2rem;
+}
+th {
+	text-align: center;
+}
+.gallery {
+	background: #909090;
+	color: #fff;
+}
+.submit {
+	color: #000;
+}
+.gallery img {
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.media img {
+	height: 100px;
+	width: 100px;
+	vertical-align: bottom;
+}
